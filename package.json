@@ -1,7 +1,7 @@
 {
   "name": "trumpsum",
   "displayName": "trumpsum",
-  "description": "Inserts Tumpism placeholder text (lorem ipsum) from http://hipsterjesus.com/ into the editor.",
+  "description": "Inserts Tumpism placeholder text (lorem ipsum) from http://trumpipsum.net into the editor.",
   "version": "1.0.6",
   "publisher": "Jlu676",
   "engines": {
@@ -32,7 +32,7 @@
     "vscode": "^0.11.0"
   },
   "dependencies": {
-    "htmlparser": "^1.7.7",
-    "htmlparser2": "^3.9.1"
+    "cheerio": "^0.20.0",
+    "html-to-text": "^2.1.3"
   }
 }

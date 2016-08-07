@@ -19,7 +19,8 @@ export function activate(context: vscode.ExtensionContext) {
         // The code you place here will be executed every time your command is executed
 
         const editor = vscode.window.activeTextEditor;
-        var cheerio = require('cheerio')
+        var cheerio = require('cheerio');
+        var htmlToText = require('html-to-text');
         var data = "";
        http.get('http://trumpipsum.net/?paras=1&type=make-it-great', (res) => {
             res.on('data', function (chunk) {
@@ -27,8 +28,11 @@ export function activate(context: vscode.ExtensionContext) {
             });
             res.on('end', function () {
                 var html = cheerio.load(data);
-                var text = String(html('div.anyipsum-output > p')).replace('<p> ','').replace('</p>','');
+                var text = htmlToText.fromString(String(html('div.anyipsum-output > p')));
                 console.log(text);
+                editor.edit((eb) => {
+                    eb.insert(editor.selection.active, text);
+                });
 
             });
             res.on('error', function (e) {
