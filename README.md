@@ -1,6 +1,6 @@
 # hipsum README
 
-A Visual Studio Code extension that can insert hipster placeholder text from the hipsum API into the editor.
+A Visual Studio Code extension that can insert Trump placeholder text from the trumpsum site into the editor.
 
 * Published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=third774.hipsum)
 
@@ -8,9 +8,9 @@ A Visual Studio Code extension that can insert hipster placeholder text from the
 
 ## Features
 
-Use the `hipsum` command (press F1 to open Command Palette) to hit the hipster ipsum API (at [http://hipsterjesus.com/](http://hipsterjesus.com/)) and insert the text into the editor.
+Use the `trumpsum` command (press F1 to open Command Palette) to hit the Trump ipsum  (at [http://trumpipsum.net/](http://trumpipsum.net/)) and insert the text into the editor.
 
-![alt text](https://github.com/third774/vscode-hipsum/raw/master/Animation.gif "Functionality Preview")
+![alt text](https://github.com/jlu676/vscode-trumpsum/raw/master/Animation.gif "Functionality Preview")
 
 ## Known Issues
 
