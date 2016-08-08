@@ -18,13 +18,5 @@ Use the `trumpsum` command (press F1 to open Command Palette) to hit the Trump i
 
 ## Release Notes
 
-### 1.0.1 - 1.0.4
-
-README.md updates
-* Fix image link
-* Remove comments
-* Add github and VS Marketplace links
-
-### 1.0.0
 
 Initial release!
