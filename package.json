@@ -2,7 +2,7 @@
     "name": "trumpsum",
     "displayName": "trumpsum",
     "description": "Inserts Tumpism placeholder text (lorem ipsum) from http://trumpipsum.net into the editor.",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "publisher": "jerky676",
     "engines": {
         "vscode": "^1.0.0"
