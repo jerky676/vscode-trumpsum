@@ -1,4 +1,4 @@
-# hipsum README
+# Trumpsum README
 
 A Visual Studio Code extension that can insert Trump placeholder text from the trumpsum site into the editor.
 
