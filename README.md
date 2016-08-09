@@ -2,7 +2,7 @@
 
 A Visual Studio Code extension that can insert Trump placeholder text from the trumpsum site into the editor.
 
-* Published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=third774.hipsum)
+* Published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jerky676.trumpsum)
 
 * Contribute on [Github](https://github.com/third774/vscode-hipsum)
 
