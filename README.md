@@ -4,7 +4,7 @@ A Visual Studio Code extension that can insert Trump placeholder text from the t
 
 * Published to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=jerky676.trumpsum)
 
-* Contribute on [Github](https://github.com/third774/vscode-hipsum)
+* Contribute on [Github](https://github.com/jlu676/vscode-trumpsum)
 
 ## Features
 
@@ -20,3 +20,4 @@ Use the `trumpsum` command (press F1 to open Command Palette) to hit the Trump i
 
 
 Initial release!
+README.md typos corrected
