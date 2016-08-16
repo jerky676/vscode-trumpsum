@@ -2,10 +2,23 @@
     "name": "trumpsum",
     "displayName": "trumpsum",
     "description": "Inserts Tumpism placeholder text (lorem ipsum) from http://trumpipsum.net into the editor.",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "publisher": "jerky676",
     "engines": {
         "vscode": "^1.0.0"
+    },
+    "bugs": {
+        "url": "https://github.com/jlu676/vscode-trumpsum/issues"
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "homepage": "https://github.com/jlu676/vscode-trumpsum",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jlu676/vscode-trumpsum"
     },
     "categories": [
         "Other"
@@ -21,11 +34,6 @@
                 "title": "trumpsum"
             }
         ]
-    },
-    "scripts": {
-        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
-        "postinstall": "node ./node_modules/vscode/bin/install"
     },
     "devDependencies": {
         "typescript": "^1.8.5",

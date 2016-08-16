@@ -19,5 +19,12 @@ Use the `trumpsum` command (press F1 to open Command Palette) to hit the Trump i
 ## Release Notes
 
 
+### 1.1.2
+Metadata Updates
+
+### 1.0.1 - 1.1.1
+README.md updates. 
+* github typos corrected
+
+### 1.0.0
 Initial release!
-README.md typos corrected
