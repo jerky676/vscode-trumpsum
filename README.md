@@ -18,6 +18,8 @@ Use the `trumpsum` command (press F1 to open Command Palette) to hit the Trump i
 
 ## Release Notes
 
+### 1.1.3
+Migrated to https thank to KazuoCode
 
 ### 1.1.2
 Metadata Updates
